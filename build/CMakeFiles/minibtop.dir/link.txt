@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/minibtop.dir/link.d CMakeFiles/minibtop.dir/src/CPUReader.cpp.o CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o CMakeFiles/minibtop.dir/src/main.cpp.o -o minibtop

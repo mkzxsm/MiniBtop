@@ -1,0 +1,3 @@
+/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles/minibtop.dir
+/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles/edit_cache.dir
+/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles/rebuild_cache.dir
