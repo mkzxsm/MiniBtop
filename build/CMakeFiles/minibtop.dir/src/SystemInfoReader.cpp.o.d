@@ -1,10 +1,7 @@
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: \
- /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp \
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o: \
+ /home/romashka/CLionProjects/Mini-btop/src/SystemInfoReader.cpp \
  /usr/include/stdc-predef.h \
- /home/romashka/CLionProjects/Mini-btop/include/MiniBtopApp.hpp \
- /home/romashka/CLionProjects/Mini-btop/include/CPUReader.hpp \
- /home/romashka/CLionProjects/Mini-btop/include/NetworkReader.hpp \
- /home/romashka/CLionProjects/Mini-btop/include/TerminalUI.hpp \
+ /home/romashka/CLionProjects/Mini-btop/include/SystemInfoReader.hpp \
  /usr/include/c++/16.1.1/string \
  /usr/include/c++/16.1.1/bits/requires_hosted.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -110,18 +107,8 @@ CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: \
  /usr/include/c++/16.1.1/bits/uses_allocator.h \
  /usr/include/c++/16.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/16.1.1/tuple /usr/include/c++/16.1.1/bits/invoke.h \
- /home/romashka/CLionProjects/Mini-btop/include/MemoryReader.hpp \
- /home/romashka/CLionProjects/Mini-btop/include/ThermalReader.hpp \
- /home/romashka/CLionProjects/Mini-btop/include/ProcessReader.hpp \
- /usr/include/c++/16.1.1/vector \
- /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
- /usr/include/c++/16.1.1/bits/stl_vector.h \
- /usr/include/c++/16.1.1/bits/stl_bvector.h \
- /usr/include/c++/16.1.1/bits/vector.tcc \
- /home/romashka/CLionProjects/Mini-btop/include/SystemInfoReader.hpp \
- /usr/include/c++/16.1.1/iostream /usr/include/c++/16.1.1/ostream \
- /usr/include/c++/16.1.1/bits/ostream.h /usr/include/c++/16.1.1/ios \
- /usr/include/c++/16.1.1/exception \
+ /usr/include/c++/16.1.1/fstream /usr/include/c++/16.1.1/istream \
+ /usr/include/c++/16.1.1/ios /usr/include/c++/16.1.1/exception \
  /usr/include/c++/16.1.1/bits/exception_ptr.h \
  /usr/include/c++/16.1.1/bits/cxxabi_init_exception.h \
  /usr/include/c++/16.1.1/typeinfo \
@@ -163,52 +150,21 @@ CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/16.1.1/bits/locale_facets.tcc \
  /usr/include/c++/16.1.1/bits/basic_ios.tcc \
+ /usr/include/c++/16.1.1/ostream /usr/include/c++/16.1.1/bits/ostream.h \
  /usr/include/c++/16.1.1/bits/ostream_print.h \
- /usr/include/c++/16.1.1/bits/ostream.tcc /usr/include/c++/16.1.1/istream \
- /usr/include/c++/16.1.1/bits/istream.tcc /usr/include/c++/16.1.1/thread \
- /usr/include/c++/16.1.1/bits/std_thread.h \
- /usr/include/c++/16.1.1/bits/refwrap.h \
- /usr/include/c++/16.1.1/bits/unique_ptr.h \
- /usr/include/c++/16.1.1/bits/this_thread_sleep.h \
- /usr/include/c++/16.1.1/bits/chrono.h /usr/include/c++/16.1.1/ratio \
- /usr/include/c++/16.1.1/cstdint \
- /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
- /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
- /usr/include/bits/stdint-least.h /usr/include/c++/16.1.1/limits \
- /usr/include/c++/16.1.1/ctime \
- /usr/include/c++/16.1.1/bits/parse_numbers.h \
- /usr/include/c++/16.1.1/chrono /usr/include/c++/16.1.1/iomanip \
- /usr/include/c++/16.1.1/locale \
- /usr/include/c++/16.1.1/bits/locale_facets_nonio.h \
- /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/time_members.h \
- /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/16.1.1/bits/codecvt.h \
- /usr/include/c++/16.1.1/bits/locale_facets_nonio.tcc \
- /usr/include/c++/16.1.1/bits/locale_conv.h \
- /usr/include/c++/16.1.1/bits/quoted_string.h \
- /usr/include/c++/16.1.1/sstream /usr/include/c++/16.1.1/bits/sstream.tcc \
- /usr/include/c++/16.1.1/algorithm \
- /usr/include/c++/16.1.1/bits/stl_algo.h \
- /usr/include/c++/16.1.1/bits/algorithmfwd.h \
- /usr/include/c++/16.1.1/bits/stl_heap.h \
- /usr/include/c++/16.1.1/bits/uniform_int_dist.h \
- /usr/include/c++/16.1.1/bits/stl_tempbuf.h \
- /usr/include/c++/16.1.1/pstl/glue_algorithm_defs.h \
- /usr/include/c++/16.1.1/pstl/execution_defs.h \
- /usr/include/c++/16.1.1/csignal /usr/include/signal.h \
- /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
- /usr/include/bits/types/sig_atomic_t.h \
- /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
- /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
- /usr/include/bits/siginfo-consts-arch.h \
- /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
- /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
- /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
- /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
- /usr/include/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/c++/16.1.1/bits/ostream.tcc \
+ /usr/include/c++/16.1.1/bits/istream.tcc \
+ /usr/include/c++/16.1.1/bits/codecvt.h \
+ /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
+ /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
+ /usr/include/c++/16.1.1/bits/fstream.tcc /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
- /usr/include/linux/close_range.h /usr/include/bits/ss_flags.h \
- /usr/include/bits/types/struct_sigstack.h /usr/include/bits/sigthread.h \
- /usr/include/bits/signal_ext.h
+ /usr/include/linux/close_range.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h

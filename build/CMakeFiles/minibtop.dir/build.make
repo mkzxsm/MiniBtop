@@ -72,10 +72,38 @@ include CMakeFiles/minibtop.dir/flags.make
 CMakeFiles/minibtop.dir/codegen:
 .PHONY : CMakeFiles/minibtop.dir/codegen
 
+CMakeFiles/minibtop.dir/src/main.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/main.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/main.cpp
+CMakeFiles/minibtop.dir/src/main.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minibtop.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/main.cpp.o -MF CMakeFiles/minibtop.dir/src/main.cpp.o.d -o CMakeFiles/minibtop.dir/src/main.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/main.cpp
+
+CMakeFiles/minibtop.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/main.cpp > CMakeFiles/minibtop.dir/src/main.cpp.i
+
+CMakeFiles/minibtop.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/main.cpp -o CMakeFiles/minibtop.dir/src/main.cpp.s
+
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o -MF CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o.d -o CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp
+
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp > CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i
+
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp -o CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s
+
 CMakeFiles/minibtop.dir/src/CPUReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
 CMakeFiles/minibtop.dir/src/CPUReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/CPUReader.cpp
 CMakeFiles/minibtop.dir/src/CPUReader.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minibtop.dir/src/CPUReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minibtop.dir/src/CPUReader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/CPUReader.cpp.o -MF CMakeFiles/minibtop.dir/src/CPUReader.cpp.o.d -o CMakeFiles/minibtop.dir/src/CPUReader.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/CPUReader.cpp
 
 CMakeFiles/minibtop.dir/src/CPUReader.cpp.i: cmake_force
@@ -89,7 +117,7 @@ CMakeFiles/minibtop.dir/src/CPUReader.cpp.s: cmake_force
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/MemoryReader.cpp
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o -MF CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o.d -o CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/MemoryReader.cpp
 
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.i: cmake_force
@@ -99,34 +127,6 @@ CMakeFiles/minibtop.dir/src/MemoryReader.cpp.i: cmake_force
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/MemoryReader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/MemoryReader.cpp -o CMakeFiles/minibtop.dir/src/MemoryReader.cpp.s
-
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: CMakeFiles/minibtop.dir/flags.make
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o -MF CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o.d -o CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp
-
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp > CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i
-
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp -o CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s
-
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: CMakeFiles/minibtop.dir/flags.make
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o -MF CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o.d -o CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp
-
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp > CMakeFiles/minibtop.dir/src/TerminalUI.cpp.i
-
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/TerminalUI.cpp -o CMakeFiles/minibtop.dir/src/TerminalUI.cpp.s
 
 CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
 CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/ThermalReader.cpp
@@ -142,42 +142,90 @@ CMakeFiles/minibtop.dir/src/ThermalReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/ThermalReader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/ThermalReader.cpp -o CMakeFiles/minibtop.dir/src/ThermalReader.cpp.s
 
-CMakeFiles/minibtop.dir/src/main.cpp.o: CMakeFiles/minibtop.dir/flags.make
-CMakeFiles/minibtop.dir/src/main.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/main.cpp
-CMakeFiles/minibtop.dir/src/main.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/minibtop.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/main.cpp.o -MF CMakeFiles/minibtop.dir/src/main.cpp.o.d -o CMakeFiles/minibtop.dir/src/main.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/main.cpp
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/ProcessReader.cpp
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o -MF CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o.d -o CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/ProcessReader.cpp
 
-CMakeFiles/minibtop.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/main.cpp > CMakeFiles/minibtop.dir/src/main.cpp.i
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/ProcessReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/ProcessReader.cpp > CMakeFiles/minibtop.dir/src/ProcessReader.cpp.i
 
-CMakeFiles/minibtop.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/main.cpp -o CMakeFiles/minibtop.dir/src/main.cpp.s
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/ProcessReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/ProcessReader.cpp -o CMakeFiles/minibtop.dir/src/ProcessReader.cpp.s
+
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/SystemInfoReader.cpp
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o -MF CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o.d -o CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/SystemInfoReader.cpp
+
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/SystemInfoReader.cpp > CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.i
+
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/SystemInfoReader.cpp -o CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.s
+
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/NetworkReader.cpp
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o -MF CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o.d -o CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/NetworkReader.cpp
+
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/NetworkReader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/NetworkReader.cpp > CMakeFiles/minibtop.dir/src/NetworkReader.cpp.i
+
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/NetworkReader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/NetworkReader.cpp -o CMakeFiles/minibtop.dir/src/NetworkReader.cpp.s
+
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: CMakeFiles/minibtop.dir/flags.make
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o: CMakeFiles/minibtop.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o -MF CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o.d -o CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o -c /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp
+
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp > CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.i
+
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/romashka/CLionProjects/Mini-btop/src/MiniBtopApp.cpp -o CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s
 
 # Object files for target minibtop
 minibtop_OBJECTS = \
+"CMakeFiles/minibtop.dir/src/main.cpp.o" \
+"CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o" \
 "CMakeFiles/minibtop.dir/src/CPUReader.cpp.o" \
 "CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o" \
-"CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o" \
-"CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o" \
 "CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o" \
-"CMakeFiles/minibtop.dir/src/main.cpp.o"
+"CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o" \
+"CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o" \
+"CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o" \
+"CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o"
 
 # External object files for target minibtop
 minibtop_EXTERNAL_OBJECTS =
 
+minibtop: CMakeFiles/minibtop.dir/src/main.cpp.o
+minibtop: CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o
 minibtop: CMakeFiles/minibtop.dir/src/CPUReader.cpp.o
 minibtop: CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o
-minibtop: CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o
-minibtop: CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o
 minibtop: CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o
-minibtop: CMakeFiles/minibtop.dir/src/main.cpp.o
+minibtop: CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o
+minibtop: CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o
+minibtop: CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o
+minibtop: CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o
 minibtop: CMakeFiles/minibtop.dir/build.make
 minibtop: CMakeFiles/minibtop.dir/compiler_depend.ts
 minibtop: CMakeFiles/minibtop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable minibtop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/romashka/CLionProjects/Mini-btop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable minibtop"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minibtop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

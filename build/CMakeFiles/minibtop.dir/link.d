@@ -2,12 +2,15 @@ minibtop: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o \
+  CMakeFiles/minibtop.dir/src/main.cpp.o \
+  CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o \
   CMakeFiles/minibtop.dir/src/CPUReader.cpp.o \
   CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o \
-  CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o \
-  CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o \
   CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o \
-  CMakeFiles/minibtop.dir/src/main.cpp.o \
+  CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o \
+  CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o \
+  CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o \
+  CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libm.so \
@@ -46,17 +49,23 @@ minibtop: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o:
 
+CMakeFiles/minibtop.dir/src/main.cpp.o:
+
+CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o:
+
 CMakeFiles/minibtop.dir/src/CPUReader.cpp.o:
 
 CMakeFiles/minibtop.dir/src/MemoryReader.cpp.o:
 
-CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o:
-
-CMakeFiles/minibtop.dir/src/TerminalUI.cpp.o:
-
 CMakeFiles/minibtop.dir/src/ThermalReader.cpp.o:
 
-CMakeFiles/minibtop.dir/src/main.cpp.o:
+CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o:
+
+CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o:
+
+CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o:
+
+CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/libstdc++.so:
 

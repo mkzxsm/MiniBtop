@@ -201,6 +201,78 @@ src/MiniBtopApp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/MiniBtopApp.cpp.s
 .PHONY : src/MiniBtopApp.cpp.s
 
+src/NetworkReader.o: src/NetworkReader.cpp.o
+.PHONY : src/NetworkReader.o
+
+# target to build an object file
+src/NetworkReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/NetworkReader.cpp.o
+.PHONY : src/NetworkReader.cpp.o
+
+src/NetworkReader.i: src/NetworkReader.cpp.i
+.PHONY : src/NetworkReader.i
+
+# target to preprocess a source file
+src/NetworkReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/NetworkReader.cpp.i
+.PHONY : src/NetworkReader.cpp.i
+
+src/NetworkReader.s: src/NetworkReader.cpp.s
+.PHONY : src/NetworkReader.s
+
+# target to generate assembly for a file
+src/NetworkReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/NetworkReader.cpp.s
+.PHONY : src/NetworkReader.cpp.s
+
+src/ProcessReader.o: src/ProcessReader.cpp.o
+.PHONY : src/ProcessReader.o
+
+# target to build an object file
+src/ProcessReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/ProcessReader.cpp.o
+.PHONY : src/ProcessReader.cpp.o
+
+src/ProcessReader.i: src/ProcessReader.cpp.i
+.PHONY : src/ProcessReader.i
+
+# target to preprocess a source file
+src/ProcessReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/ProcessReader.cpp.i
+.PHONY : src/ProcessReader.cpp.i
+
+src/ProcessReader.s: src/ProcessReader.cpp.s
+.PHONY : src/ProcessReader.s
+
+# target to generate assembly for a file
+src/ProcessReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/ProcessReader.cpp.s
+.PHONY : src/ProcessReader.cpp.s
+
+src/SystemInfoReader.o: src/SystemInfoReader.cpp.o
+.PHONY : src/SystemInfoReader.o
+
+# target to build an object file
+src/SystemInfoReader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.o
+.PHONY : src/SystemInfoReader.cpp.o
+
+src/SystemInfoReader.i: src/SystemInfoReader.cpp.i
+.PHONY : src/SystemInfoReader.i
+
+# target to preprocess a source file
+src/SystemInfoReader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.i
+.PHONY : src/SystemInfoReader.cpp.i
+
+src/SystemInfoReader.s: src/SystemInfoReader.cpp.s
+.PHONY : src/SystemInfoReader.s
+
+# target to generate assembly for a file
+src/SystemInfoReader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minibtop.dir/build.make CMakeFiles/minibtop.dir/src/SystemInfoReader.cpp.s
+.PHONY : src/SystemInfoReader.cpp.s
+
 src/TerminalUI.o: src/TerminalUI.cpp.o
 .PHONY : src/TerminalUI.o
 
@@ -291,6 +363,15 @@ help:
 	@echo "... src/MiniBtopApp.o"
 	@echo "... src/MiniBtopApp.i"
 	@echo "... src/MiniBtopApp.s"
+	@echo "... src/NetworkReader.o"
+	@echo "... src/NetworkReader.i"
+	@echo "... src/NetworkReader.s"
+	@echo "... src/ProcessReader.o"
+	@echo "... src/ProcessReader.i"
+	@echo "... src/ProcessReader.s"
+	@echo "... src/SystemInfoReader.o"
+	@echo "... src/SystemInfoReader.i"
+	@echo "... src/SystemInfoReader.s"
 	@echo "... src/TerminalUI.o"
 	@echo "... src/TerminalUI.i"
 	@echo "... src/TerminalUI.s"
